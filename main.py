@@ -3,6 +3,7 @@ import streamlit as st
 def add(a, b):
     return a+b
 
+st.write("This is my simple webapp")
 num1 = st.number_input('Pick a number 1')
 num2 = st.number_input('Pick a number 2')
 data = st.selectbox('Pick one', ['cats', 'dogs'])
